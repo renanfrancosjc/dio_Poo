@@ -1,8 +1,7 @@
-package escola;
-
-public class Aluno {
+public class Professor{
     private String nome;
     private int idade;
+    private int materia;
 
     public String getNome(){
         return nome;
@@ -12,7 +11,7 @@ public class Aluno {
         nome = newNome;
     }
 
-    public int getIdade(){
+       public int getIdade(){
         return idade;
     }
 
@@ -20,12 +19,11 @@ public class Aluno {
         idade = newIdade;
     }
 
-    public int getNota(){
-          return nota;
+    public String getMateria(){
+        return materia;
     }
 
-    public void setNota(int newNota){
-        nota = newNota;
+    public void setMateria(String newMateria){
+        materia = newMateria;
     }
-
 }
